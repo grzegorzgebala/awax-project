@@ -1,0 +1,95 @@
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.top_menu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  flex-direction: row;
+
+  > ul {
+    display: flex;
+    padding-left: 10%;
+    width: 100%;
+  
+    > li {
+    padding-right: 2%;
+
+      > a {
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      > a:hover {
+        border-bottom: 2px solid rgb(184, 139, 88);
+      }
+    }
+  }
+
+  img {
+    padding-left: 16%;
+  }
+}
+
+.hero {
+	background-image: url('../images/jumbotron.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .design {
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 240px;
+  }
+
+  .comunication {
+    font-size: 72px;
+    color: rgb(184, 139, 88);
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .number {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  button {
+    margin-top: 40px;
+    margin-bottom: 180px;
+    width: 190px;
+    height: 45px;
+    background-color: rgb(184, 139, 88);
+    color: white;
+    border-radius: 50px;
+  }
+
+  img {
+    margin-bottom: 35px;
+  }
+}
