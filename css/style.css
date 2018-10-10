@@ -2,9 +2,9 @@ body { margin: 0; }
 
 .container { width: 100%; margin: 0 auto; max-width: 1600px; }
 
-.top_menu { display: flex; justify-content: start; align-items: center; width: 100%; margin: 0 auto; background-color: black; flex-direction: row; }
+.top_menu { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: start; -ms-flex-align: center; align-items: center; width: 100%; margin: 0 auto; background-color: black; -ms-flex-direction: row; flex-direction: row; }
 
-.top_menu > ul { display: flex; padding-left: 10%; width: 100%; list-style-type: none; }
+.top_menu > ul { display: -ms-flexbox; display: flex; padding-left: 10%; width: 100%; list-style-type: none; }
 
 .top_menu > ul > li { padding-right: 2%; text-align: center; }
 
@@ -16,7 +16,7 @@ body { margin: 0; }
 
 .hero { background-image: url("../images/jumbotron.png"); background-position: center; background-repeat: no-repeat; background-size: cover; margin: 0 auto; }
 
-.slogan { display: flex; justify-content: center; align-items: center; flex-direction: column; position: relative; }
+.slogan { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; position: relative; }
 
 .slogan .design { font-size: 72px; color: white; font-weight: bold; margin: 0; padding-top: 240px; }
 
@@ -30,12 +30,22 @@ body { margin: 0; }
 
 .button { margin-top: 40px; margin-bottom: 180px; width: 190px; height: 45px; background-color: #b88b58; color: white; border-radius: 50px; }
 
-.about_us { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.about_us { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
-.about_us .description { display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 50%; }
+.about_us h1 { margin: 0; margin-top: 50px; }
 
-.about_us .description p { max-width: 30%; }
+.about_us .who { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
 
-.about_us .learn { display: flex; justify-content: center; flex-direction: row; }
+.about_us .description { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: start; justify-content: start; max-width: 37%; }
+
+.about_us .description p { width: 100%; margin: 0; }
+
+.about_us .learn { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; }
 
 .about_us img { max-width: 445px; max-height: 275px; }
+
+.services { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.services .serv_for { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+
+.services .serv { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }

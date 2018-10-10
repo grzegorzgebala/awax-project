@@ -112,16 +112,30 @@ body {
   align-items: center;
   flex-direction: column;
 
+  h1 {
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .who {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    color: rgb(174, 174, 174);
+  }
+
   .description {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
+    justify-content: start;
+    max-width: 37%;
 
     p {
-      max-width: 30%;
+      width: 100%;
+      margin: 0;
     }
+
   }
 
   .learn {
@@ -134,4 +148,24 @@ body {
     max-width: 445px;
     max-height: 275px;
   }
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  .serv_for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 }
