@@ -1,3 +1,6 @@
+//* {
+ // box-sizing: border-box;
+//}
 
 body {
   margin: 0;
@@ -22,15 +25,17 @@ body {
     display: flex;
     padding-left: 10%;
     width: 100%;
+    list-style-type: none;
   
     > li {
     padding-right: 2%;
-
+    text-align: center;
       > a {
         font-size: 14px;
         color: white;
         font-weight: bold;
         text-decoration: none;
+        max-width: 100%;
       }
       > a:hover {
         border-bottom: 2px solid rgb(184, 139, 88);
@@ -56,6 +61,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 
   .design {
     font-size: 72px;
@@ -79,7 +85,18 @@ body {
     margin: 0;
   }
 
-  button {
+  img {
+    margin-bottom: 35px;
+  }
+  .call {
+    position: absolute;
+    bottom: -5%;
+    right: 5%;
+    margin: 0;
+  }
+}
+
+.button {
     margin-top: 40px;
     margin-bottom: 180px;
     width: 190px;
@@ -87,9 +104,34 @@ body {
     background-color: rgb(184, 139, 88);
     color: white;
     border-radius: 50px;
+}
+
+.about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+
+    p {
+      max-width: 30%;
+    }
+  }
+
+  .learn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
 
   img {
-    margin-bottom: 35px;
+    max-width: 445px;
+    max-height: 275px;
   }
 }
