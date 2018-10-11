@@ -30,11 +30,11 @@ body { margin: 0; }
 
 .button { margin-top: 40px; margin-bottom: 180px; width: 190px; height: 45px; background-color: #b88b58; color: white; border-radius: 50px; }
 
+.who { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
+
 .about_us { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
 .about_us h1 { margin: 0; margin-top: 50px; }
-
-.about_us .who { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
 
 .about_us .description { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: start; justify-content: start; max-width: 37%; }
 
@@ -44,8 +44,20 @@ body { margin: 0; }
 
 .about_us img { max-width: 445px; max-height: 275px; }
 
-.services { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.services { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: black; }
+
+.services h2 { color: white; margin: 0; margin-top: 50px; }
 
 .services .serv_for { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
 
-.services .serv { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.services .serv { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; max-width: 20%; text-align: center; border-left: 1px solid #aeaeae; padding: 0 10px; }
+
+.services .serv p { color: white; }
+
+.services .serv .small_desc { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
+
+.services .serv_last { border-right: 1px solid #aeaeae; }
+
+.projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; }

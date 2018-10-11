@@ -106,6 +106,14 @@ body {
     border-radius: 50px;
 }
 
+.who {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    color: rgb(174, 174, 174);
+  }
+
 .about_us {
   display: flex;
   justify-content: center;
@@ -117,13 +125,7 @@ body {
     margin-top: 50px;
   }
 
-  .who {
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    font-size: 10px;
-    color: rgb(174, 174, 174);
-  }
+  
 
   .description {
     display: flex;
@@ -154,18 +156,57 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
   
+  h2 {
+    color: white;
+    margin: 0;
+    margin-top: 50px;
+  }
+
   .serv_for {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
   }
+  
   .serv {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+    max-width: 20%;
+    text-align: center;
+    border-left: 1px solid rgb(174, 174, 174);
+    padding: 0 10px;
+  
+    p {
+      color: white;
+    }
 
+    .small_desc {
+      margin: 0;
+      margin-top: 5px;
+      margin-bottom: 50px;
+      font-size: 10px;
+      color: rgb(174, 174, 174);
+    }
+  }
+  .serv_last {
+    border-right: 1px solid rgb(174, 174, 174);
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
