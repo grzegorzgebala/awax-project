@@ -60,4 +60,34 @@ body { margin: 0; }
 
 .projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
-.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; }
+.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; -ms-flex-align: center; align-items: center; }
+
+.projects .buttons .projects_button { height: 55px; width: 110px; border: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; }
+
+.projects .buttons .first_button { border-top-left-radius: 40%; border-bottom-left-radius: 40%; }
+
+.projects .buttons .last_button { border-top-right-radius: 40%; border-bottom-right-radius: 40%; }
+
+.our_team { background-image: url("../images/team_bg.png"); display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.our_team .workers { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; }
+
+.our_team .box { background: white; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; margin-right: 10%; }
+
+.happy_clients { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.price { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.price .boxes { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; text-align: center; -ms-flex-direction: row; flex-direction: row; }
+
+.premium { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.premium .row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+
+.premium .menu { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: start; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+
+.some_facts { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.some_facts .row { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: start; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+
+.some_facts .box { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
