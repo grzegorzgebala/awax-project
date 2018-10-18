@@ -32,7 +32,7 @@ body { margin: 0; }
 
 .who { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
 
-.about_us { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.about_us { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
 
 .about_us h1 { margin: 0; margin-top: 50px; }
 
@@ -58,23 +58,49 @@ body { margin: 0; }
 
 .services .serv_last { border-right: 1px solid #aeaeae; }
 
-.projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
 
-.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; -ms-flex-align: center; align-items: center; }
+.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; -ms-flex-align: center; align-items: center; margin-bottom: 4%; }
 
-.projects .buttons .projects_button { height: 55px; width: 110px; border: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; }
+.projects .buttons .projects_button { height: 55px; width: 110px; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; }
 
-.projects .buttons .first_button { border-top-left-radius: 40%; border-bottom-left-radius: 40%; }
+.projects .buttons .projects_button:before { content: " "; display: -ms-flexbox; display: flex; position: absolute; height: 50px; margin-top: 3px; border-right: 1px solid black; }
 
-.projects .buttons .last_button { border-top-right-radius: 40%; border-bottom-right-radius: 40%; }
+.projects .buttons:before { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-left-radius: 50%; border-bottom-left-radius: 50%; }
+
+.projects .buttons:after { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-right-radius: 50%; border-bottom-right-radius: 50%; }
+
+.projects .l1 img { margin: 30px 30px; }
 
 .our_team { background-image: url("../images/team_bg.png"); display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
-.our_team .workers { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; }
+.our_team img { margin-bottom: 40px; }
 
-.our_team .box { background: white; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; margin-right: 10%; }
+.our_team h2 { color: white; }
 
-.happy_clients { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.our_team .workers { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; width: 100%; }
+
+.our_team .box { background: white; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; margin-right: 2%; width: 22%; margin-bottom: 50px; }
+
+.our_team .box img { margin: 45px 0; }
+
+.our_team .box .name { font-size: 21px; margin-bottom: 5px; }
+
+.our_team .box .position { margin-top: 0; margin-bottom: 40px; }
+
+.our_team .box .icons { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; margin-bottom: 40px; }
+
+.our_team .box .icons .fab { color: white; }
+
+.our_team .box .icons .fas { color: white; }
+
+.circle { height: 40px; width: 40px; border-radius: 50%; background-color: #bebebe; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; margin-right: 4px; }
+
+.happy_clients { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
+
+.happy_clients_logo { border-top: 2px solid #cfcfcf; border-bottom: 2px solid #cfcfcf; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; padding: 50px 0; }
+
+.happy_clients_logo img { margin: 0 50px; }
 
 .price { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
@@ -103,8 +129,6 @@ body { margin: 0; }
 .map .info { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: white; margin: 20px 0; margin-left: 16%; }
 
 .map .row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
-
-.map .circle { height: 40px; width: 40px; border-radius: 50%; background-color: grey; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
 footer { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
 

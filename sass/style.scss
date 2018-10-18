@@ -119,6 +119,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(247, 247, 247);
 
   h1 {
     margin: 0;
@@ -166,7 +167,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding-bottom: 40px; 
   }
   
   .serv {
@@ -201,32 +202,60 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(247, 247, 247);
 
   .buttons {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 4%;
 
     .projects_button {
       height: 55px;
       width: 110px;
-      border: 1px solid black;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
       text-align: center;
       line-height: 55px;
       font-size: 14px;
     }
 
-    .first_button {
-      border-top-left-radius: 40%;
-      border-bottom-left-radius: 40%;
+    .projects_button:before {
+      content: " ";
+      display: flex;
+      position: absolute;
+      height: 50px;
+      margin-top: 3px;
+      border-right: 1px solid black;
     }
 
-    .last_button {
-      border-top-right-radius: 40%;
-      border-bottom-right-radius: 40%;
-    }
   }
+  .buttons:before {
+    content: " ";
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 55px;
+    height: 55px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  .buttons:after {
+    content: " ";
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 55px;
+    height: 55px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+
+  .l1 img {
+    margin: 30px 30px;
+  }
+
 }
 
 .our_team {
@@ -236,10 +265,18 @@ body {
   align-items: center;
   flex-direction: column;
 
+  img {
+      margin-bottom: 40px;
+    }
+  
+  h2 {
+    color: white;
+  }
   .workers {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    width: 100%;
   }
 
   .box {
@@ -248,15 +285,69 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 2%;
+    width: 22%;
+    margin-bottom: 50px;
+
+    img {
+      margin: 45px 0;
+    }
+
+    .name {
+      font-size: 21px;
+      margin-bottom: 5px;
+    }
+
+    .position {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 40px;
+
+      .fab {
+        color: white;
+      }
+      .fas {
+        color: white;
+      }
+    }
   }
 }
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+  }
 
 .happy_clients {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(247, 247, 247);
+}
+
+.happy_clients_logo {
+  border-top: 2px solid rgb(207, 207, 207);
+  border-bottom: 2px solid rgb(207, 207, 207);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px 0;
+
+  img {
+    margin: 0 50px;
+  }
 }
 
 .price {
@@ -358,16 +449,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-  }
-
-  .circle {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
