@@ -48,7 +48,7 @@ body { margin: 0; }
 
 .services h2 { color: white; margin: 0; margin-top: 50px; }
 
-.services .serv_for { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+.services .serv_for { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; padding-bottom: 40px; }
 
 .services .serv { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; max-width: 20%; text-align: center; border-left: 1px solid #aeaeae; padding: 0 10px; }
 
