@@ -219,6 +219,7 @@ body {
       text-align: center;
       line-height: 55px;
       font-size: 14px;
+      background-color: rgb(237, 237, 237);
     }
 
     .projects_button:before {
@@ -240,6 +241,7 @@ body {
     height: 55px;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
+    background-color: rgb(237, 237, 237);
   }
   .buttons:after {
     content: " ";
@@ -250,6 +252,7 @@ body {
     height: 55px;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+    background-color: rgb(237, 237, 237);
   }
 
   .l1 img {
@@ -335,6 +338,34 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: rgb(247, 247, 247);
+
+  .name {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .position {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .quotation {
+    font-family: 'K2D', sans-serif;
+    font-size: 100px;
+    margin: 0;
+  }
+
+  .description {
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
 }
 
 .happy_clients_logo {

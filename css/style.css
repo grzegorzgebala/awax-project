@@ -62,13 +62,13 @@ body { margin: 0; }
 
 .projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; -ms-flex-align: center; align-items: center; margin-bottom: 4%; }
 
-.projects .buttons .projects_button { height: 55px; width: 110px; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; }
+.projects .buttons .projects_button { height: 55px; width: 110px; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; background-color: #ededed; }
 
 .projects .buttons .projects_button:before { content: " "; display: -ms-flexbox; display: flex; position: absolute; height: 50px; margin-top: 3px; border-right: 1px solid black; }
 
-.projects .buttons:before { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-left-radius: 50%; border-bottom-left-radius: 50%; }
+.projects .buttons:before { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-left-radius: 50%; border-bottom-left-radius: 50%; background-color: #ededed; }
 
-.projects .buttons:after { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-right-radius: 50%; border-bottom-right-radius: 50%; }
+.projects .buttons:after { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-right-radius: 50%; border-bottom-right-radius: 50%; background-color: #ededed; }
 
 .projects .l1 img { margin: 30px 30px; }
 
@@ -97,6 +97,16 @@ body { margin: 0; }
 .circle { height: 40px; width: 40px; border-radius: 50%; background-color: #bebebe; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; margin-right: 4px; }
 
 .happy_clients { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
+
+.happy_clients .name { font-weight: bold; font-family: 'Montserrat', sans-serif; font-size: 24px; margin-bottom: 15px; }
+
+.happy_clients .position { margin: 0; font-size: 18px; }
+
+.happy_clients .quotation { font-family: 'K2D', sans-serif; font-size: 100px; margin: 0; }
+
+.happy_clients .description { max-width: 50%; text-align: center; margin-bottom: 50px; }
+
+.happy_clients .pagination { margin-bottom: 50px; }
 
 .happy_clients_logo { border-top: 2px solid #cfcfcf; border-bottom: 2px solid #cfcfcf; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; padding: 50px 0; }
 
