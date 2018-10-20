@@ -112,15 +112,35 @@ body { margin: 0; }
 
 .happy_clients_logo img { margin: 0 50px; }
 
-.price { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+.price { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #ededed; }
 
-.price .boxes { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; text-align: center; -ms-flex-direction: row; flex-direction: row; }
+.price .boxes { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; text-align: center; -ms-flex-direction: row; flex-direction: row; width: 100%; margin-bottom: 50px; }
+
+.price .title { margin-top: 30px; }
+
+.price .price_who { margin: 0; margin-top: 5px; margin-bottom: 50px; font-size: 10px; color: #aeaeae; }
+
+.price .box { width: 16%; background-color: #f7f7f7; margin-left: 30px; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
+
+.price .box .box_price { font-family: 'Montserrat', sans-serif; font-size: 30px; font-weight: bold; margin-bottom: 0; }
+
+.price .box .month { margin-top: 0; font-size: 14px; color: #aeaeae; }
+
+.price .button { margin: 30px 0; background-color: #373737; width: 130px; }
+
+.price .button:hover { background-color: #b88b58; }
+
+.price .line { border-bottom: 1px solid black; width: 10px; }
+
+.price p { margin: 6px 0; }
 
 .premium { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
 .premium .row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
 
 .premium .menu { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: start; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; }
+
+.premium .list { margin-left: 34px; }
 
 .some_facts { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
