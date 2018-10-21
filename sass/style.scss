@@ -422,7 +422,7 @@ body {
     .box_price {
       font-family: 'Montserrat', sans-serif;
       font-size: 30px;
-      font-weight: bold;
+      font-weight: 700;
       margin-bottom: 0;
     }
 
@@ -471,10 +471,26 @@ body {
     justify-content: start;
     align-items: center;
     flex-direction: row;
-  }
-  .list {
-      margin-left: 34px;
+
+    img {
+      margin-right: 30px;
     }
+  }
+
+  .list {
+      margin-left: 64px;
+      color: rgb(174, 174, 174);
+    }
+
+  .big_line {
+    border-bottom: 1px solid rgb(174, 174, 174);
+    width: 80%;
+    margin: 40px 0;
+  }
+
+  button {
+    margin-bottom: 60px;
+  }
 }
 
 .some_facts {
@@ -482,19 +498,60 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #000000;
+
+  h2 {
+    color: white;
+  }
 
   .row {
     display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .box {
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 80px;
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 13%;
+      text-align: center;
+      margin: 0 20px;
+
+      .number {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: #b88b58;
+        margin-bottom: 15px;
+      }
+      
+      .line {
+        border-bottom: 1px solid #7e7e7e;
+        width: 30px;
+        color: #7e7e7e;
+      }
+
+      p {
+        color: white;
+      }
+      
+      .name {
+        font-weight: bold;
+      }
+
+      .name-1 {
+        margin-bottom: auto;
+      }
+
+      .desc {
+        font-size: 12px;
+        color: #7e7e7e;
+      }
+    }
   }
 }
 
