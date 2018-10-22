@@ -459,6 +459,11 @@ body {
   align-items: center;
   flex-direction: column;
 
+  img {
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+
   .row {
     display: flex;
     justify-content: center;
