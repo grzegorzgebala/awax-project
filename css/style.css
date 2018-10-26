@@ -220,6 +220,10 @@ body { margin: 0; }
 
 .map .circle_line { width: 65px; height: 65px; border-radius: 50%; background-color: #b88b58; position: absolute; left: 70px; bottom: -30px; }
 
+.map .circle_line .line_1 { height: 15px; color: white; transform: skew(-45deg); margin: 0; border-right: 3px solid white; position: relative; left: -38px; top: 25px; }
+
+.map .circle_line .line_2 { height: 15px; width: 40px; color: white; transform: skew(45deg); margin: 0; border-left: 3px solid white; position: relative; left: 38px; top: 10px; }
+
 footer { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; background-color: #000000; }
 
 footer .row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: row; flex-direction: row; margin-top: 30px; margin-bottom: 140px; margin-right: 150px; }

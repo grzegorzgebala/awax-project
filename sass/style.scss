@@ -726,6 +726,29 @@ body {
     position: absolute;
     left: 70px;
     bottom: -30px;
+
+    .line_1 {
+      height: 15px;
+      color: white;
+      transform: skew(-45deg);
+      margin: 0;
+      border-right: 3px solid white;
+      position: relative;
+      left: -38px;
+      top: 25px;
+    }
+
+    .line_2 {
+      height: 15px;
+      width: 40px;
+      color: white;
+      transform: skew(45deg);
+      margin: 0;
+      border-left: 3px solid white;
+      position: relative;
+      left: 38px;
+      top: 10px;
+    }
   }
 }
 
