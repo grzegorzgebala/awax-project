@@ -33,7 +33,7 @@
 							<p class="number">CALL US: +00 0 1234 5678</p>
 							<button class="button">GET IN TOUCH!</button>
 							<img src="images/paginator.png" alt="pagination">
-							<img class="call" src="images/call.png" alt="call">
+							<img href="#modal-one" class="call show-modal" src="images/call.png" alt="call">
 						</div>
 					</div>	
 			    </div>
@@ -473,6 +473,17 @@
 					</div>
 				</footer>
 			</div>
+			<div class="overlay" id="modal-overlay">
+				<div class="modal" id="modal-one">
+					<a href="#" class="close">x</a>
+					<div class="content">
+						<input type="text" name="NAME" value="NAME">
+						<input type="text" name="NUMBER" value="+00 0 1234 5678">
+						<button class="button">SEND MESSAGE</button>
+					</div>
+				</div>
+			</div>
 		</main>
+		<script src="js/script.js"></script>
 	</body>	
 </html>		
