@@ -204,84 +204,31 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: rgb(247, 247, 247);
-
-  .buttons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 4%;
-    position: relative;
-
-    .projects_button {
-      height: 55px;
-      width: 110px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      text-align: center;
-      line-height: 55px;
-      font-size: 14px;
-      background-color: rgb(237, 237, 237);
-    }
-
-    .projects_button:before {
-      content: " ";
-      display: flex;
-      position: absolute;
-      height: 50px;
-      margin-top: 3px;
-      border-right: 1px solid black;
-    }
-  }
-
-  .buttons:before {
-    content: " ";
-    display: block;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 55px;
-    height: 55px;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    background-color: rgb(237, 237, 237);
-    position: absolute;
-    left: -25px;
-  }
-
-  .buttons:after {
-    content: " ";
-    display: block;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 55px;
-    height: 55px;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    background-color: rgb(237, 237, 237);
-    position: absolute;
-    right: -25px;
-  }
   
-  .line {
-    width: 100px;
-    background-color: #b88b58;
-    height: 5px;
-    display: none;
-    position: relative;
-    bottom: 5px;
-    margin-left: 5px;
+  nav {
+    background: rgb(237, 237, 237);
+    border-radius: 50px;
+    width: 710px;
+   
+    ul {
+      padding: 0;
+      text-align: center;
+      
+      li {
+        display: inline;
+        margin: 10px;
+        width: 100px;
+      }
+
+      li:hover {
+        border-bottom: 5px solid #b88b58; 
+      }
+    }
   }
 
   .l1 img {
     margin: 30px 30px;
-  }
-  
-  .projects_button:hover {
-      .line {
-        display: block;
-      }  
-  }
-  
+  } 
 }
 
 .our_team {

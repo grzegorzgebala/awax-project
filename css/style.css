@@ -60,21 +60,15 @@ body { margin: 0; }
 
 .projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
 
-.projects .buttons { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: row; flex-direction: row; -ms-flex-align: center; align-items: center; margin-bottom: 4%; position: relative; }
+.projects nav { background: #ededed; border-radius: 50px; width: 710px; }
 
-.projects .buttons .projects_button { height: 55px; width: 110px; border-top: 1px solid black; border-bottom: 1px solid black; text-align: center; line-height: 55px; font-size: 14px; background-color: #ededed; }
+.projects nav ul { padding: 0; text-align: center; }
 
-.projects .buttons .projects_button:before { content: " "; display: -ms-flexbox; display: flex; position: absolute; height: 50px; margin-top: 3px; border-right: 1px solid black; }
+.projects nav ul li { display: inline; margin: 10px; width: 100px; }
 
-.projects .buttons:before { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-left-radius: 50%; border-bottom-left-radius: 50%; background-color: #ededed; position: absolute; left: -25px; }
-
-.projects .buttons:after { content: " "; display: block; border-top: 1px solid black; border-bottom: 1px solid black; width: 55px; height: 55px; border-top-right-radius: 50%; border-bottom-right-radius: 50%; background-color: #ededed; position: absolute; right: -25px; }
-
-.projects .line { width: 100px; background-color: #b88b58; height: 5px; display: none; position: relative; bottom: 5px; margin-left: 5px; }
+.projects nav ul li:hover { border-bottom: 5px solid #b88b58; }
 
 .projects .l1 img { margin: 30px 30px; }
-
-.projects .projects_button:hover .line { display: block; }
 
 .our_team { background-image: url("../images/team_bg.png"); display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; }
 
