@@ -60,13 +60,15 @@ body { margin: 0; }
 
 .projects { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; background-color: #f7f7f7; }
 
-.projects nav { background: #ededed; border-radius: 50px; width: 710px; }
+.projects nav { background: #ededed; border-radius: 50px; width: 710px; border: 1px solid #cfcfcf; height: 60px; }
 
-.projects nav ul { padding: 0; text-align: center; }
+.projects nav ul { padding: 10px 0; text-align: center; margin: 0 auto; }
 
-.projects nav ul li { display: inline; margin: 10px; width: 100px; }
+.projects nav ul li { display: inline-block; min-width: 80px; padding: 10px; }
 
-.projects nav ul li:hover { border-bottom: 5px solid #b88b58; }
+.projects nav ul .line { border-left: 1px solid #cfcfcf; }
+
+.projects nav ul li:hover { border-bottom: 5px solid #b88b58; cursor: pointer; }
 
 .projects .l1 img { margin: 30px 30px; }
 

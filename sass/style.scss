@@ -209,19 +209,27 @@ body {
     background: rgb(237, 237, 237);
     border-radius: 50px;
     width: 710px;
-   
+    border: 1px solid #cfcfcf;
+    height: 60px;
+
     ul {
-      padding: 0;
+      padding: 10px 0;
       text-align: center;
+      margin: 0 auto;
       
       li {
-        display: inline;
-        margin: 10px;
-        width: 100px;
+        display: inline-block;
+        min-width: 80px;
+        padding: 10px;
+      }
+      
+      .line {
+        border-left: 1px solid #cfcfcf;
       }
 
       li:hover {
         border-bottom: 5px solid #b88b58; 
+        cursor: pointer;
       }
     }
   }
