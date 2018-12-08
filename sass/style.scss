@@ -30,6 +30,7 @@ body {
     > li {
     padding-right: 2%;
     text-align: center;
+
       > a {
         font-size: 14px;
         color: white;
@@ -37,6 +38,7 @@ body {
         text-decoration: none;
         max-width: 100%;
       }
+
       > a:hover {
         border-bottom: 2px solid rgb(184, 139, 88);
         padding-bottom: 13px;
@@ -834,5 +836,75 @@ footer {
     button {
       margin: 0;
     }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .top_menu ul {
+    flex-direction: column;
+    align-items: flex-end;
+    
+    li {
+      margin-bottom: 3%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .l1 {
+    width: calc(100% - 35%);
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .our_team {
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .about_us {
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .some_facts {
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .happy_clients_logo {
+    flex-wrap: wrap;
+    
+    img {
+      margin-bottom: 3%;  
+    }
+  }
+
+  .share {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .desc {
+    font-size: 14px;
   }
 }

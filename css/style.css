@@ -255,3 +255,19 @@ footer .button { margin: 0; }
 .modal .content input { width: 40%; border: 0; color: #aeaeae; border-bottom: 1px solid #aeaeae; width: 100%; margin-bottom: 50px; padding-bottom: 15px; }
 
 .modal .content button { margin: 0; }
+
+@media only screen and (max-width: 1024px) { .top_menu ul { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: end; align-items: flex-end; }
+  .top_menu ul li { margin-bottom: 3%; } }
+
+@media only screen and (max-width: 1280px) { .l1 { width: calc(100% - 35%); }
+  .icons { -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; }
+  .our_team h2 { text-align: center; }
+  .our_team p { text-align: center; }
+  .about_us h2 { text-align: center; }
+  .about_us p { text-align: center; }
+  .some_facts h2 { text-align: center; }
+  .some_facts p { text-align: center; }
+  .happy_clients_logo { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .happy_clients_logo img { margin-bottom: 3%; }
+  .share p { font-size: 14px; }
+  .desc { font-size: 14px; } }
